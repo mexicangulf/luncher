@@ -54,6 +54,7 @@
             localStorage.setItem("access_token", JSON.stringify(data.token));
             localStorage.setItem("user", JSON.stringify(data.user));
             localStorage.setItem("match_id", tableId);
+            localStorage.setItem("GAME_SERVER_URL", "https://game1.bazzite.ir");
             window.location.href = `/play/${gameid}`;
         });
         
