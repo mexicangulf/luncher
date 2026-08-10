@@ -11,7 +11,7 @@
 
 		script.type = 'module';
 		script.src =
-			`/download/${params.gameid}/assets/index-DgyPDBqo.js`;
+			`/download/${params.gameid}/assets/index-BvDO8Lcm.js`;
 
 		document.body.appendChild(script);
 

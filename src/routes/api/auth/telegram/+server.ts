@@ -107,7 +107,7 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 
 		console.log(process.env.NODE_ENV);
 
-		if(process.env.NODE_ENV === "development") {
+		if(process.env.NODE_ENV === "development" || true) {
 				// generate a random username for development
 
 				const randomUsername = `dev_user_${crypto.randomBytes(6).toString('hex')}`;
